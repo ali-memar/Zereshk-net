@@ -1,0 +1,219 @@
+<html lang="en,fa-IR" dir="rtl">
+<head>
+    <meta charset="UTF-8"/>
+    <title>ثبت نام در زرشک</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstraprtl.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"/>
+    <link rel="stylesheet"
+          href="fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style-signin.css">
+</head>
+
+<body>
+<!--navbar-->
+<div id="main">
+    <div class="container-nav" style="margin-top:100px;">
+
+        <nav>
+            <div class="nav-fostrap">
+                <ul>
+                    <li><a href="index.html"><i class="fa fa-home"></i>خانه</a></li>
+
+                    <li>
+                        <a href="javascript:void(0)"><i class="fa fa-list-alt"></i>خدمات زرشک<span class="arrow-down"></span></a>
+                        <ul class="dropdown">
+                            <li><a href=""><span class="nav-ico">
+                                                <img src="img/image59.png">
+                                            </span>
+                                <span class="nav-txt">
+                                                ADSL+
+                                            </span></a></li>
+                            <li><a href=""><span class="nav-ico">
+                                                <img src="img/image60.png">
+                                            </span>
+                                <span class="nav-txt">
+                                                VDSL
+                                            </span></a></li>
+                            <li><a href=""><span class="nav-ico">
+                                                <img src="img/image61.png">
+                                            </span>
+                                <span class="nav-txt">
+                                                شارژ مجدد اینترنت
+                                            </span></a></li>
+                            <li><a href=""><span class="nav-ico">
+                                                <img src="img/image62.png">
+                                            </span>
+                                <span class="nav-txt">
+                                                تست سرعت دانلود
+                                            </span></a></li>
+                            <li><a href=""><span class="nav-ico">
+                                                <img src="img/image63.png">
+                                            </span>
+                                <span class="nav-txt">
+                                                بررسی پوشش خدمات
+                                            </span></a></li>
+                            <li><a href=""><span class="nav-ico">
+                                                <img src="img/image64.png">
+                                            </span>
+                                <span class="nav-txt">
+                                                اینترنت برج ها و مجتمع ها
+                                            </span></a></li>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li><a href=""><i class="fa fa-globe-asia"></i>زرشک در استان ها</a></li>
+                    <li><a href=""><i class="fa fa-phone"></i>پشتیبانی فنی</a></li>
+                    <li><a href=""><i class="fa fa-address-card"></i>درباره زرشک</a></li>
+                    <li id="myzereshk" class="d-inline-block"><a href="mrlogin.html" class="btn-advice text-center btn-primary title="
+                                                                 درخواست دمو data-toggle=" modal" data-target="#myModal"
+                                                                 TARGET="_BLANK">مای زرشک </a>
+                    </li>
+                    <li id="register" class="d-inline-block"><a href="signin.html" class="btn-advice text-center btn-success title=" ثبت نام
+                                                                data-toggle=" modal" data-target="#myModal" TARGET="_BLANK">ثبت نام </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-bg-fostrap">
+                <div class="navbar-fostrap"> <span></span> <span></span> <span></span> </div>
+                <a href="" class="title-mobile">زرشک نت</a>
+            </div>
+        </nav>
+    </div>
+</div>
+<!--end navbar-->
+<div class="container-fluid">
+    <div class="row justify-content-center">
+        <div class="col-11 col-sm-10 col-md-10 col-lg-6 col-xl-5 text-center p-0 mt-3 mb-2">
+            <div class="card px-0 pt-4 pb-0 mt-3 mb-3">
+                <h2 id="heading">حساب زرشکی خود را بسازید</h2>
+                <p>برای رفتن به قدم بعد تمام فیلد های زیر را تکمیل کنید</p>
+                <form id="msform">
+                    <!-- progressbar -->
+                    <ul id="progressbar">
+                        <li class="active" id="account"><strong>حساب</strong></li>
+                        <li id="personal"><strong>اطلاعات شخصی</strong></li>
+                        <li id="payment"><strong>تصویر</strong></li>
+                        <li id="confirm"><strong>تکمیل</strong></li>
+                    </ul>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                             aria-valuemin="0" aria-valuemax="100" style="width: 25%">
+                        </div>
+                    </div>
+                    <br/>
+                    <!-- fieldsets -->
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">اطلاعات حساب :</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">مرحله 1 - 4</h2>
+                                </div>
+                            </div>
+                            <label class="fieldlabels">ایمیل: *</label>
+                            <input type="email" name="email" placeholder="آدرس ایمیل"/>
+                            <label class="fieldlabels">نام کاربری: *</label>
+                            <input type="text" name="uname" placeholder="نام کاربری"/>
+                            <label class="fieldlabels">رمز عبور: *</label>
+                            <input type="password" name="pwd" placeholder="رمز عبور"/>
+                            <label class="fieldlabels">تایید رمز عبور: *</label>
+                            <input type="password" name="cpwd" placeholder="تایید رمز عبور"/>
+                        </div>
+                        <input type="button" name="next" class="next action-button" value="بعدی"/>
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">اطلاعات شخصی :</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">مرحله 2 - 4</h2>
+                                </div>
+                            </div>
+                            <label class="fieldlabels">نام: *</label>
+                            <input type="text" name="fname" placeholder="نام"/>
+                            <label class="fieldlabels">نام خانوادگی: *</label>
+                            <input type="text" name="lname" placeholder="نام خانوادگی"/>
+                            <label class="fieldlabels">شماره تماس: *</label>
+                            <input type="text" name="phno" placeholder="شماره تماس"/>
+                            <label class="fieldlabels">شماره تماس جایگزین: *</label>
+                            <input type="text" name="phno_2" placeholder="شماره تماس جایگزین"/>
+                        </div>
+                        <input type="button" name="next" class="next action-button" value="بعدی"/>
+                        <input type="button" name="previous" class="previous action-button-previous" value="قبلی"/>
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">بارگزاری تصویر:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">مرحله 3 - 4</h2>
+                                </div>
+                            </div>
+                            <label class="fieldlabels">تصویر خود را بارگزاری کنید</label>
+                            <input type="file" name="pic" accept="image/*"/>
+                            <label class="fieldlabels">تصویر کارت ملی خود را بارگزاری کنید:</label>
+                            <input type="file" name="pic" accept="image/*"/>
+                        </div>
+                        <input
+                                type="button"
+                                name="next"
+                                class="next action-button"
+                                value="ثبت"
+                        />
+                        <input
+                                type="button"
+                                name="previous"
+                                class="previous action-button-previous"
+                                value="قبلی"
+                        />
+                    </fieldset>
+                    <fieldset>
+                        <div class="form-card">
+                            <div class="row">
+                                <div class="col-7">
+                                    <h2 class="fs-title">تکمیل:</h2>
+                                </div>
+                                <div class="col-5">
+                                    <h2 class="steps">مرحله 4 - 4</h2>
+                                </div>
+                            </div>
+                            <br/><br/>
+                            <h2 class="purple-text text-center">
+                                <strong>ثبت نام موفقیت آمیز بود !</strong>
+                            </h2>
+                            <br/>
+                            <div class="row justify-content-center">
+                                <div class="col-3">
+                                    <img
+                                            src="img/tik.png"
+                                            class="fit-image"
+                                    >
+                                </div>
+                            </div>
+                            <br/><br/>
+                            <div class="row justify-content-center">
+                                <div class="col-7 text-center">
+                                    <h5 class="purple-text text-center">
+                                        به زرشک خوش آمدید
+                                    </h5>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="js/js-signin.js"></script>
+<script src="js/Script-nav.js"></script>
+</body>
+</html>
